@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="view choiceView">
+    <h1>《你画我瞎》小游戏</h1>
+    <label>
+        <span>请输入你的游戏名称</span><input type="text" value="" class="nameInput">
+        <button class="changeName">晦气，换个名字</button>
+        <br>
+        <button class="start drawer">我是灵魂画手</button>
+        <button class="start imager">我是眼瞎猜手</button>
+    </label>
+</div>
+
+<div class="view playView" style="display: none">
+    <h1>你画我瞎</h1>
+    <canvas class="mainCanvas"></canvas>
+    <div class="chatArea">
+        <h3>消息面板</h3>
+        <div class="chat"></div>
+    </div>
+    <!--猜的面板-->
+    <div class="imagerPanel panel">
+        <h2>你的名字：<span class="yourName"></span></h2>
+        <label>
+            <input type="text" class="imageInputText">
+            <button class="submit">提交</button>
+        </label>
+    </div>
+    <!--画的面板-->
+    <div class="drawerPanel panel">
+        <h2>你的名字：<span class="yourName"></span></h2>
+        <h2>你要画的东西是：<span class="drawThing"></span></h2>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="js/functionTools.js"></script>
+<script src="basic.js"></script>
+<script src="drawBoard.js"></script>
+
+<script src="draw.js"></script>

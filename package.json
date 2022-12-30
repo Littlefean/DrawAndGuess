@@ -1,0 +1,10 @@
+{
+  "name": "2022年6月15日 你画我瞎",
+  "version": "1.0.0",
+  "dependencies": {
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "ws": "^8.8.0"
+  }
+}

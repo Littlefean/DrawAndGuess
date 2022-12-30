@@ -1,0 +1,74 @@
+.view {
+  height: 100vh;
+  width: 100%;
+}
+button {
+  transition: all 0.5s;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+h1 {
+  text-align: center;
+  line-height: 2em;
+}
+.mainCanvas {
+  outline: solid 1px;
+  margin: 0 auto;
+  display: block;
+}
+body .choiceView {
+  text-align: center;
+  font-size: 30px;
+}
+body .choiceView input {
+  font-size: 30px;
+  margin-left: 5px;
+  color: green;
+  padding: 10px;
+}
+body .choiceView button {
+  font-size: 30px;
+  line-height: 3em;
+  margin: 20px;
+}
+body .playView {
+  position: relative;
+}
+body .playView .chatArea {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  padding: 10px;
+  outline: solid 1px;
+}
+body .playView .chatArea h3 {
+  text-align: center;
+}
+body .playView .chatArea .chat {
+  width: 100%;
+  height: 400px;
+  outline: solid 1px;
+  overflow-y: scroll;
+}
+body .playView .chatArea .chat .msg {
+  display: block;
+  font-size: 15px;
+  text-indent: 1em;
+}
+body .playView .panel {
+  outline: solid 1px;
+  width: 100%;
+  min-height: 200px;
+  background-color: pink;
+}
+body .playView .panel h2 {
+  text-align: center;
+}
+body .playView .panel h2 .yourName {
+  color: deeppink;
+}
+/*# sourceMappingURL=index.css.map */
